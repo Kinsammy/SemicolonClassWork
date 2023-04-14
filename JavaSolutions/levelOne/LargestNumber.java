@@ -13,10 +13,13 @@ public class LargestNumber {
 
         while(number != -1){
             if(number >  firstLargest){
-                number =  firstLargest;
+                secondLargest = firstLargest;
+                firstLargest = number;
             }
-            if (firstLargest > number){
-                number = secondLargest;
+            if (number < firstLargest){
+               if (number > secondLargest){
+                   secondLargest = number;
+               }
             }
 
             System.out.println("Enter a numbers");
