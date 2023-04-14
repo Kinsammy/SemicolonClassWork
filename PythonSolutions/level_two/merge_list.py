@@ -21,7 +21,7 @@ def merge_sorted_arrays(arr1, arr2):
 
     return merged_arr
 
-# Example sorted arrays
+
 
 if __name__ =='__main__':
     arr1 = [1, 3, 5, 7]
@@ -29,5 +29,4 @@ if __name__ =='__main__':
 
     merged_arr = merge_sorted_arrays(arr1, arr2)
     print(merged_arr)
-    # for num in merged_arr:
-    #     print(num, end=" ")
+   

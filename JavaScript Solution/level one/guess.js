@@ -8,5 +8,6 @@ while (true) {
         break
     } else {
         console.log("Incorrect Guess")
+        guessNumber = prompt("Guess my day of my birthday ")
     }
 }
